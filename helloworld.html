@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Hello World</title>
+  </head>
+  <body>
+  <div>
+  <a href="#links">Links</a> <a href="git.html">git</a>
+  </div>
+  <div>
+    <h1> Hello World </h1>
+    <!-- relative path is only where you are--- the mcc folder
+          absoulute path is like www.dafdf.com more specifc
+          or users/you/mcc/img
+
+          a relative path knows that youre in the directory-->
+    <p style="color:green"> My cat is <strong>very</strong> grumpy </p>
+    <img src="images/grumpycat.jpg" style="width: 50%; margin-left: 25%;" alt = "grumpy cat">
+  </div>
+  <div>
+    <h1> This is h1</h1>
+    <h2> This is h2</h2>
+    <h3> This is h3</h3>
+    <h4> This is h4</h4>
+    <h5> This is h5</h5>
+    <h6> This is h6</h6>
+  </div>
+  <div>
+    <h4> undordered lists will give you bullets:</h4>
+    <ul>
+      <li> technologist</li>
+      <li> 1</li>
+      <li> 2 </li>
+    </ul>
+    <h4> Ordered lists "ol" will give you a numbered list:</h4>
+    <ol>
+      <li> 1</li>
+      <li> 2</li>
+      <li> 3</li>
+    </ol>
+  </div>
+  <h1 id="links"> Links</h1><a href="#top">Back to the top</a><br>
+  <a href="http://google.com"> google</a>
+  <p> you can use the attribute target="_blank" within an anchor tag to let the browser know to open this link in a new tab or window:</p>
+  <p> <a href="http://google.com" target="_blank"> Google(in new tab because of target=_blank attribute)</a> </p>
+  <p>Notice above the first google link does not have the target=_blank attribute and so will open in the same window.</p>
+
+  <h2> Abosulute vs Relative Paths </h2>
+  <p> Absoulute paths always include a specific file and server..."http://blahblah.com"</p>
+  <p> Anytime you link to another site, it should be an absolute path</p>
+  <p> Relative paths ask for a file, but not a specific server....href="contacts.html".</p>
+  <p> Since no server name is specificed, the browser assumes you mean the server that your page is on.</p>
+  </body>
+</html>
